@@ -1,22 +1,8 @@
 import React from 'react';
 import '../ExCss/exstyles.css';
+import {queue} from "../../Util/Queue.tsx";
 export const ProxyQueue = () => {
-  const queue = [{
-    id: 1,
-    name: 'Clip C',
-    progress: 50,
-    value: '50 %'
-  }, {
-    id: 2,
-    name: 'Clip D',
-    progress: 10,
-    value: '720 p'
-  }, {
-    id: 3,
-    name: 'News Segment',
-    progress: 15,
-    value: '1080 p'
-  }];
+
   return <div>
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-lg font-medium text-white">PROXY QUEUE</h2>
